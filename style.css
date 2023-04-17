@@ -34,4 +34,17 @@ input[type="text"] {
     background-color: aquamarine;
     color:blueviolet;
 }
+h1+h2 {
+    background-color: brown;
+    color: :aquamarine;
+}
 
+p{
+    color:red !important;
+}
+#p-red {
+    color: green;
+}
+div .red {
+    color: red;
+}
