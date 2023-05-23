@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myfun1(){
+            document.getElementById("demo").classList.add("darkmode");
+        }
+        function myfun2(){
+            document.getElementById("demo").classList.remove("darkmode");
+        }
+    </script>
+    <style>
+        .darkmode {
+            background-color: black;
+            color:whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo" style="border:1px solid black;">
+    <h1>this is a title</h1>
+        <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid temporibus, distinctio pariatur perferendis in similique praesentium doloribus. Placeat voluptatem ratione quae dolore, repellat aliquam ipsa aut unde animi quibusdam rerum.
+        </p>
+    </div>
+    <button onclick="myfun2()">lightmode</button>
+    <button onclick="myfun1()">darkmode </button>
+</body>
+</html>
